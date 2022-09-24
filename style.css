@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
+
+/* ----------------  VARIABLES  ------------------------ */
+
+:root {
+    --text-gray: #808291;
+    --text-white: #f8f9fa;
+    --txt-light: #f6f6f6;
+    --text-dark: #1a3260;
+    --text-dark2: #1a3760d4;
+    --text-red: #ff4d6d;
+    --box-shadow: 0 0 50px 0 rgb(0 0 0 / 10%);
+    --bg-blue: rgba(249, 243, 255);
+    --bg-red: rgb(254, 247, 252);
+    --bg-yellow: rgb(255, 255, 246);
+    --bg-purple: rgb(246, 255, 255);
+
+    /* FONT FAMILY */
+    --font-poppins: 'Poppins', sans-serif;
+
+    /* GRADIENTS */
+    --bg-gradient: linear-gradient(to right, #ff512f, #dd2476);
+    --bg-gradient-indigo: linear-gradient(to right, #8e2de2, #4a00e0);
+    --bg-gradient-peach: linear-gradient(to right, #fff7f3, #fff7f3);
+
+    /* IMAGES */
+    --bg-cover: url('./assets/bgimg1.png');
+    --bg-iamge1: url('./assets/img1.png');
+    --bg-image2: url('./assets/img2.png');
+    --bg-image3: url('./assets/img3.png');
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+/* ----------------  /VARIABLES  ------------------------ */
