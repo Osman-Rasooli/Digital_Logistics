@@ -278,10 +278,11 @@ ul {
     flex-direction: column;
 }
 
-/* #nav .collapse {
+#nav .collapse {
     max-height: 0;
     overflow-y: hidden;
-} */
+    transition: all .9s ease-in;
+}
 
 #nav .collapse ul {
     flex-direction: column;
@@ -309,7 +310,7 @@ ul {
 }
 
 .active {
-    max-height: 50vh;
+    max-height: 50vh !important;
 }
 
 /* ----------------  /NAVIGATION  ------------------------ */
