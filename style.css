@@ -316,13 +316,39 @@ ul {
 
 /* ----------------  /NAVIGATION  ------------------------ */
 
+/* ----------------  BANNER  ------------------------ */
+
+#site-main .banner-area {
+    width: 100%;
+    position: relative;
+    background: var(--bg-cover) no-repeat;
+    background-position-x: right;
+}
+
+#site-main .banner-area .banner-title {
+    height: 95vh;
+    padding-top: 16rem;
+}
+
+
+
+
+
+/* ----------------  /BANNER  ------------------------ */
+
+
 
 
 /* ----------------  MEDIA QUERIES  ------------------------ */
 
 
 @media (min-width: 640px) {
-    
+    .container {
+        max-width: 640px;
+    }
+    .sm-text-xl {
+        font-size: 3em;
+    }
 }
 
 @media (min-width: 768px) {
@@ -366,3 +392,4 @@ ul {
 }
 
 /* ----------------  /MEDIA QUERIES  ------------------------ */
+
