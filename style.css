@@ -26,7 +26,7 @@
 
     /* IMAGES */
     --bg-cover: url('./assets/bgimg1.png');
-    --bg-iamge1: url('./assets/img1.png');
+    --bg-image1: url('./assets/img1.png');
     --bg-image2: url('./assets/img2.png');
     --bg-image3: url('./assets/img3.png');
 }
@@ -351,7 +351,45 @@ ul {
 
 
 
+#site-main .life-area > .grid {
+    column-gap: 10em;
+}
 
+#site-main .life-area .grid-images {
+    display: grid;
+    grid-template-columns: repeat(16, minmax(10px, 1fr));
+    grid-template-rows: repeat(8, minmax(100px, 1fr));
+}
+
+#site-main .life-area .item-one {
+    background: var(--bg-image1) no-repeat;
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    border-radius: 8px;
+    filter: blur(1px);
+}
+
+#site-main .life-area .item-two {
+    background: var(--bg-image2) no-repeat;
+    background-size: cover;
+    grid-column-start: 9;
+    grid-column-end: 16;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border-radius: 8px;
+    filter: blur(1px);
+}
+
+#site-main .life-area .item-three {
+    background: var(--bg-image3) no-repeat;
+    background-size: cover;
+    grid-area: 3/4/7/13;
+    border-radius: 8px;
+    z-index: 2;
+}
 
 /* ----------------  /DIGITAL LIFE  ------------------------ */
 
