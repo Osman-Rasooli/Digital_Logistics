@@ -344,10 +344,16 @@ ul {
 }
 
 
-
 /* ----------------  /AGENCY  ------------------------ */
 
 
+/* ----------------  DIGITAL LIFE  ------------------------ */
+
+
+
+
+
+/* ----------------  /DIGITAL LIFE  ------------------------ */
 
 
 /* ----------------  MEDIA QUERIES  ------------------------ */
@@ -364,7 +370,13 @@ ul {
 }
 
 @media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
     
+    .md-text-left {
+        text-align: left;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -390,6 +402,10 @@ ul {
 
     .active {
         max-height: 100% !important;
+    }
+
+    .lg-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .lg-cols-3 {
