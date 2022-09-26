@@ -337,6 +337,17 @@ ul {
 /* ----------------  /BANNER  ------------------------ */
 
 
+/* ----------------  AGENCY  ------------------------ */
+
+#site-main .agency-area {
+    padding: 5em 0;
+}
+
+
+
+/* ----------------  /AGENCY  ------------------------ */
+
+
 
 
 /* ----------------  MEDIA QUERIES  ------------------------ */
@@ -357,6 +368,10 @@ ul {
 }
 
 @media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+
     #nav .toggle-btn > button {
         display: none;
     }
@@ -377,8 +392,8 @@ ul {
         max-height: 100% !important;
     }
 
-    .lg-col-3 {
-        
+    .lg-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
 
