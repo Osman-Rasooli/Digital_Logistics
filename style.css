@@ -108,6 +108,10 @@ ul {
     text-align: center;
 }
 
+.text-justify {
+    text-align: justify;
+}
+
 .text-sm {
     font-size: 1em;
     line-height: 1.5em;
@@ -430,6 +434,20 @@ ul {
 
 
 /* ----------------  /COUNTING AREA  ------------------------ */
+
+/* ----------------  CARD AREA  ------------------------ */
+
+#site-main .card-area .grid {
+    column-gap: 4em;
+    row-gap: 2em    ;
+}
+
+#site-main .card-area h2 {
+    margin-top: 10px;
+}
+
+
+/* ----------------  /CARD AREA  ------------------------ */
 
 
 /* ----------------  MEDIA QUERIES  ------------------------ */
