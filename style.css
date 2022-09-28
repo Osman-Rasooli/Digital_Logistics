@@ -393,6 +393,44 @@ ul {
 
 /* ----------------  /DIGITAL LIFE  ------------------------ */
 
+/* ----------------  COUNTING AREA  ------------------------ */
+/* 
+
+#site-main .counting-area {
+    padding: 1em 0;
+}
+
+#site-main .counting-area .grid-one p {
+    width: 80%;
+}
+
+#site-main .counting-area .count-box {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+} 
+
+#site-main .counting-area .count-box .grid > div {
+    padding: 2em;
+    text-align: center;
+}
+
+#site-main .counting-area .count-box .grid .item-1 {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+#site-main .counting-area .count-box .grid .item-2 {
+    border-bottom: 1px solid #ddd;
+}
+
+#site-main .counting-area .count-box .grid .item-3 {
+    border-right: 1px solid #ddd;
+}
+ */
+
+/* ----------------  /COUNTING AREA  ------------------------ */
+
 
 /* ----------------  MEDIA QUERIES  ------------------------ */
 
@@ -414,6 +452,10 @@ ul {
     
     .md-text-left {
         text-align: left;
+    }
+
+    .md-mx-inital {
+        margin: initial;
     }
 }
 
