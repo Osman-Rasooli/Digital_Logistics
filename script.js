@@ -11,4 +11,12 @@ window.onload = function digital_fn() {
 
         collapse.classList.toggle('active');
     })
+
+    // MASONTY JS -> for gallery
+    let grid = document.querySelector('.images-flex');
+    let mansonry = new Masonry(grid, {
+        itemSelector: '.images-flex-item',
+        gutter: 100,
+        fitWidth: true
+    });
 }
