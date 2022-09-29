@@ -449,6 +449,22 @@ ul {
 
 /* ----------------  /CARD AREA  ------------------------ */
 
+/* ----------------  RECENT WORK  ------------------------ */
+
+#site-main .recent-work-area .images-flex-item {
+    width: 360px;
+    margin-bottom: 50px;
+
+}
+
+#site-main .recent-work-area .images-flex-item img {
+    border-radius: 10px;
+}
+
+
+
+/* ----------------  /RECENT WORK  ------------------------ */
+
 
 /* ----------------  MEDIA QUERIES  ------------------------ */
 
