@@ -462,8 +462,20 @@ ul {
 }
 
 
-
 /* ----------------  /RECENT WORK  ------------------------ */
+
+/* ----------------  /ARTICLE AREA  ------------------------ */
+
+#site-main .article-area .grid {
+    column-gap: 5em;
+}
+
+#site-main .article-area .grid .card article {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* ----------------  /ARTICLES AREA  ------------------------ */
 
 
 /* ----------------  MEDIA QUERIES  ------------------------ */
@@ -477,6 +489,7 @@ ul {
     .sm-text-xl {
         font-size: 3em;
     }
+
 }
 
 @media (min-width: 768px) {
@@ -490,6 +503,12 @@ ul {
 
     .md-mx-inital {
         margin: initial;
+    }
+}
+
+@media (max-width: 1024px) {
+    #site-main .recent-work-area {
+        padding-left: 50px;
     }
 }
 
@@ -525,6 +544,7 @@ ul {
     .lg-cols-3 {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
+
 }
 
 @media (min-width: 1280px) {
