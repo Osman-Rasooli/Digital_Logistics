@@ -19,4 +19,9 @@ window.onload = function digital_fn() {
         gutter: 100,
         fitWidth: true
     });
+
+    // RELLAX JS
+    let rellax = new Rellax('.rellax', {
+        center: true
+    });
 }

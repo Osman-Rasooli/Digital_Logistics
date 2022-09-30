@@ -272,6 +272,12 @@ ul {
     width: 50%;
 }
 
+body {
+    width: 100%;
+    background: url('./assets/backgroundpng.png') no-repeat;
+    background-size: cover;
+}
+
 /* ----------------  /GLOBAL CLASSES  ------------------------ */
 
 
@@ -612,6 +618,8 @@ ul {
 
     #nav {
         flex-direction: row !important;
+        padding-left: 6rem !important;
+        padding-right: 6rem !important;
     }
 
     .active {
