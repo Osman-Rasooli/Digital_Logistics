@@ -464,7 +464,7 @@ ul {
 
 /* ----------------  /RECENT WORK  ------------------------ */
 
-/* ----------------  /ARTICLE AREA  ------------------------ */
+/* ----------------  ARTICLE AREA  ------------------------ */
 
 #site-main .article-area .grid {
     column-gap: 5em;
@@ -477,6 +477,20 @@ ul {
 
 /* ----------------  /ARTICLES AREA  ------------------------ */
 
+/* ----------------  READY AREA  ------------------------ */
+
+#site-main .ready-area .flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#site-main .ready-area .flex h1 {
+    margin-bottom: 25px;
+}
+
+
+/* ----------------  /READY AREA  ------------------------ */
 
 /* ----------------  MEDIA QUERIES  ------------------------ */
 
@@ -488,6 +502,15 @@ ul {
 
     .sm-text-xl {
         font-size: 3em;
+    }
+
+    .sm-px-10 {
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+    }
+    
+    .sm-flex-row {
+        flex-direction: row;
     }
 
 }
