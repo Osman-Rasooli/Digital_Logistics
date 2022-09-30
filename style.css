@@ -322,6 +322,10 @@ ul {
     max-height: 50vh !important;
 }
 
+.btn-start-project {
+    z-index: 10;
+}
+
 
 /* ----------------  /NAVIGATION  ------------------------ */
 
@@ -338,8 +342,6 @@ ul {
     height: 95vh;
     padding-top: 16rem;
 }
-
-
 
 
 
