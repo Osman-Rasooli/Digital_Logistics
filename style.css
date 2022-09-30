@@ -291,6 +291,7 @@ body {
     padding: 1rem 1.5rem;
     background: var(--text-light);
     flex-direction: column;
+    z-index: 10;
 }
 
 #nav .collapse {
@@ -318,6 +319,7 @@ body {
     right: 0;
     padding: 1rem;
     color: var(--text-dark2);
+    z-index: 10;
 }
 
 #nav .flex-initial ul button {
@@ -332,6 +334,9 @@ body {
     z-index: 10;
 }
 
+.nav-brand {
+    z-index: 10;
+}
 
 /* ----------------  /NAVIGATION  ------------------------ */
 
@@ -341,6 +346,7 @@ body {
     width: 100%;
     position: relative;
     background: var(--bg-cover) no-repeat;
+    background-size: 600px;
     background-position-x: right;
 }
 
@@ -549,6 +555,20 @@ body {
 /* ----------------  MEDIA QUERIES  ------------------------ */
 
 
+@media (max-width: 1024px) and (min-width: 800px) {
+    #site-main .banner-area {
+        background-size: 400px;
+        background-position-y: 90px;
+    }
+}
+
+@media (max-width: 800px) {
+    #site-main .banner-area {
+        background-image: none;
+        padding: 0 3rem;
+    }
+}
+
 @media (min-width: 640px) {
     .container {
         max-width: 640px;
@@ -597,11 +617,16 @@ body {
     #site-main .recent-work-area {
         padding-left: 50px;
     }
+    
 }
 
 @media (min-width: 1024px) {
     .container {
         max-width: 1024px;
+    }
+
+    #site-main .banner-area {
+        background-position-y: 90px;
     }
 
     #nav .toggle-btn > button {
@@ -650,7 +675,7 @@ body {
     }
 
     #nav .flex-initial ul button {
-        display: inline-block;
+        display: inline-block !important;
     }
 }
 
