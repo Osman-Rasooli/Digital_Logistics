@@ -336,6 +336,16 @@ body {
 
 .nav-brand {
     z-index: 10;
+    position: relative;
+}
+
+.nav-brand::after {
+    content: 'Logistics';
+    position: absolute;
+    top: -18%;
+    left: 0;
+    font-size: 15px;
+    color: var(--text-red);
 }
 
 /* ----------------  /NAVIGATION  ------------------------ */
