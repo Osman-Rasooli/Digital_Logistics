@@ -355,9 +355,10 @@ body {
 #site-main .banner-area {
     width: 100%;
     position: relative;
-    background: var(--bg-cover) no-repeat;
+    background: url('./assets/work/wolfgang-hasselmann-nbRgZltoOck-unsplash\ \(1\).jpg') no-repeat;
     background-size: 600px;
     background-position-x: right;
+    margin-right: -100px;
 }
 
 #site-main .banner-area .banner-title {
