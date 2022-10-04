@@ -30,7 +30,7 @@ Start developing locally.
 Fork the repository. then clone the repo locally by doing -
 
 ```sh
-git clone https://github.com/Osman-Rasooli/new_project.git
+git clone https://github.com/Osman-Rasooli/Digital_Logistics.git
 ```
 
 ### Step 2: Open
